@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <chat-room></chat-room>
+  <div id="app" class="min-h-screen bg-green-100 flex justify-center items-center p-4">
+    <ChatRoom class="w-full max-w-md" />
   </div>
 </template>
 
@@ -14,10 +14,3 @@ export default {
   }
 };
 </script>
-
-<style>
-#app {
-  text-align: center;
-  margin-top: 60px;
-}
-</style>
